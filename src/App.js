@@ -9,7 +9,7 @@ import MainNavigation from './components/layout/MainNavigation';
 function App() {
   return (
     <div>
-      <MainNavigation/>
+    <MainNavigation/>
       <Routes>
         <Route path='/' element={<AllMeetupsPage />} />
         <Route path='/new-meetup' element={<NewMeetup />} />
