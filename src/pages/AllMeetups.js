@@ -1,3 +1,5 @@
+import MeetupList from '../components/meetup/MeetupList';
+
 const DUMMY_DATA = [
     {
       id: 'm1',
@@ -18,18 +20,11 @@ const DUMMY_DATA = [
         'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
     },
   ];
-
-function AllMeetupsPage (){
-
-    return(
+  function AllMeetupsPage() {
+    return (
         <section>
-
             <h1>ALL MeetUps</h1>
-            { DUMMY_DATA.map((meetup)=> {
-                return(
-                    <li>{meetup.title}</li>
-                );
-            })}
+          <MeetupList items={DUMMY_DATA}/>
         </section>
     );
 }
