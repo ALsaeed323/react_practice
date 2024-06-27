@@ -13,9 +13,9 @@ function MainNavigation ()
                     <li> 
                        <Link to="/">ALL meetups  </Link>
                      
-                       <Link to="/fav-meetup">  ALL fav-meetup   </Link>
+                       <Link to="/fav-meetup">   My Favorites  </Link>
                      
-                       <Link to="/new-meetup"> ALL new-meetup   </Link>
+                       <Link to="/new-meetup">   Add New Meetup   </Link>
                     
                        <Link to= "https://www.linkedin.com/in/alsaead-aziz-b19965249" target="_blank" rel="noopener noreferrer">   MY LinkedIN </Link> 
                     </li>
