@@ -20,9 +20,7 @@ function MainNavigation ()
                          My Favorites  
                          <span className={classes.badge }>{favoritesCtx.totalFavorites}</span>
                          </Link>
-                     
                        <Link to="/new-meetup">   Add New Meetup   </Link>
-                    
                        <Link to= "https://www.linkedin.com/in/alsaead-aziz-b19965249" target="_blank" rel="noopener noreferrer">   MY LinkedIN </Link> 
                     </li>
                 </ul>
